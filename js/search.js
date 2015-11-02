@@ -16,8 +16,9 @@ var searchFunc = function(path, search_id, content_id) {
             var $input = document.getElementById(search_id);
             var $resultContent = document.getElementById(content_id);
 
+            if (!$input) return;
             $input.addEventListener('input', function(){
-                var str='<ul class=\"search-result-list\">';                
+                var str='<ul class=\"search-result-list\">';
                 var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
                 $resultContent.innerHTML = "";
                 if (this.value.trim().length <= 0) {
@@ -73,14 +74,14 @@ var searchFunc = function(path, search_id, content_id) {
                                 end = content.length;
                             }
 
-                            var match_content = content.substr(start, end); 
+                            var match_content = content.substr(start, end);
 
                             // highlight all keywords
                             keywords.forEach(function(keyword){
                                 var regS = new RegExp(keyword, "gi");
                                 match_content = match_content.replace(regS, "<em class=\"search-keyword\">"+keyword+"</em>");
                             });
-                            
+
                             str += "<p class=\"search-result\">" + match_content +"...</p>"
                         }
                         str += "</li>";
