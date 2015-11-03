@@ -106,7 +106,7 @@ body {
 }
 
 .pagination a{
-  color:#555;  
+  color:#555;
 }
 
 
@@ -116,7 +116,7 @@ body {
 
 li i {
   margin-right: 5px;
-  margin-left: 5px;  
+  margin-left: 5px;
 }
 
 .listing-item {
@@ -173,7 +173,7 @@ li i {
 
 .widget {
   padding-bottom: 25px;
-  border-bottom: 1px solid #e0e0e0; 
+  border-bottom: 1px solid #e0e0e0;
 }
 
 #local-search-result {
@@ -192,7 +192,7 @@ a.search-result-title {
 }
 
 p.search-result {
-  color=#555;
+  color: #555;
 }
 
 em.search-keyword {
@@ -201,7 +201,7 @@ em.search-keyword {
 }
 
 .tagcloud .entry{
-  width: 100%;  
+  width: 100%;
 }
 
 .archive-title:before {
@@ -305,7 +305,7 @@ img, video {
 
 .slogan{
   font-size: 1.2em;
-  color: #888;  
+  color: #888;
   display:block;
   margin-bottom: 1em;
 }
@@ -314,28 +314,28 @@ img, video {
    scroll to top
    ========================================================================== */
 
-#gotop{ 
-  display:block;  
-  width:36px; 
+#gotop{
+  display:block;
+  width:36px;
   height:36px;
-  position:fixed;  
-  bottom:40px;  
-  right:30px; 
+  position:fixed;
+  bottom:40px;
+  right:30px;
   border-radius:7px;
-  text-decoration:none;  
-  display:none;  
-  background-color:#999999;     
+  text-decoration:none;
+  display:none;
+  background-color:#999999;
 }
-#gotop span{ 
-  display:block; 
-  color:#dddddd; 
-} 
-#gotop span:hover{ 
-  color:#cccccc; 
-} 
-#gotop span{ 
-  font-size:24px; 
-  text-align:center; 
+#gotop span{
+  display:block;
+  color:#dddddd;
+}
+#gotop span:hover{
+  color:#cccccc;
+}
+#gotop span{
+  font-size:24px;
+  text-align:center;
 }
 
 /* =============================================================================
@@ -389,7 +389,7 @@ h4 {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   border-top-left-radius: 6px;
-  border-top-right-radius: 6px;  
+  border-top-right-radius: 6px;
 }
 
 /* =============================================================================
@@ -397,7 +397,7 @@ h4 {
    ========================================================================== */
 
 .page .entry{
-  padding-top: 10px 0;
+  padding-top: 10px;
 }
 
 .page .entry .row{
@@ -474,7 +474,7 @@ h4 {
   background: #eee;
   border:solid 1px #ccc;
 }
- 
+
 .toc .toc-title{
   font-weight:bold;
   font-size:125%
@@ -489,7 +489,7 @@ h4 {
 
 .toc-article li{
   margin-left:5px !important;
-  padding:0 !important  
+  padding:0 !important
 }
 
 .toc-article ol{
@@ -533,7 +533,7 @@ td {
 }
 
 /**
- * 
+ *
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
  *    contenteditable attribute is included anywhere else in the document.
